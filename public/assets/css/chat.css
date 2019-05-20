@@ -1,0 +1,170 @@
+.input-field .postfix ~ textarea { width: 80%; width:calc(100% - 76px);  margin-left:0px; margin-right: 0rem!important; }
+
+.input-field .postfix {
+    position: absolute;
+    width: 3rem;
+    right: 0px;
+    bottom: 10px;
+    font-size: 2rem;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+}    
+
+.input-field {
+    margin-top: 0px;
+    border-top: 1px solid #ddd;
+}
+
+.dlist {
+    padding: 0 !important;  background: #FFF; position: fixed; overflow: auto; border-right: 1px solid #ddd;
+}
+
+.chat-field {
+    min-height: 20px !important; 
+    background: white !important; 
+    padding: 15px 55px 10px 20px !important; 
+    margin: 0 0 0px 0!important;
+}
+
+.send-icon:hover {
+    color: #2196F3;
+    cursor: pointer;
+}
+
+
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #2196F3;
+    box-shadow: 0 1px 0 0 #2196F3;
+}
+
+textarea.materialize-textarea {
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 1px 0 0 #fff;
+    display: block;
+}
+
+
+#messages {
+    padding: 10px 20px 0px 20px;
+    word-break: break-word;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+
+.own-msg {
+    display: inline-block;
+    background: #f1f8e9; 
+    padding: 10px; 
+    border-radius: 25px 25px 0px 25px;
+    max-width: 800px;
+    min-width: 160px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: left;
+    margin: 10px 0px 10px auto;
+    padding-left: 10px; 
+}
+
+.another-msg {
+    display: inline-block;
+    background: #fff; 
+    padding: 10px; 
+    border-radius: 25px 25px 25px 0px;
+    max-width: 800px;
+    min-width: 160px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: left;
+    margin: 10px auto 10px 0px;
+    padding-right: 10px;
+}
+
+.interlocutor {
+    font-size: 1rem; 
+    padding: 16px 1rem;   
+    background: #fff; 
+    color: #000;
+    cursor: pointer;
+    display: block;
+}
+
+.interlocutor:hover {
+    background: #ddd;
+    color: #000;
+}
+
+.interlocutor.active {
+    background: #2196F3;
+    color: #fff;
+}
+
+.interlocutor:hover.active:hover {
+    background: #2196F3;
+    color: #fff;
+}
+
+.message-date {
+    text-align: right;
+    font-size: 11px;
+    opacity: 0.7;
+}
+
+
+.dialog-badge-parent {
+    width: 10px;
+    display: block;
+    position: initial;
+    padding: 0 14px
+}
+
+.dialog-badge {
+    color: #fff;
+    background: red;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 11px;
+    position: absolute;
+    height: 20px;
+    top: 16px;
+    right: 4px;
+    width: 28px;
+    text-align: center;
+    line-height: 12px;
+}
+
+.dialog-title {
+    overflow: hidden;
+}
+
+.overlay {
+    padding: 0; 
+    position: fixed;  
+    height: 100%;
+    background: #555;
+    z-index: 1000;
+    opacity: 0.7;
+}
+
+.linkified:hover {
+    text-decoration: underline;
+}
+
+
+.welcome {
+    padding: 0; 
+    position: fixed;  
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.label {
+    background: #555;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
